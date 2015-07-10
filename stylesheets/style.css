@@ -1,0 +1,870 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+/* line 9, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 29, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 40, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 47, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/*! normalize.css v3.0.0 | Base | MIT License | git.io/normalize */
+/* line 11, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 19, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+body {
+  margin: 0;
+}
+
+/*! normalize.css v3.0.0 | Links | MIT License | git.io/normalize */
+/* line 9, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+a {
+  background: transparent;
+}
+
+/* line 15, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
+/* line 9, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 15, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 22, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 29, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 36, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 43, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 49, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 57, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 61, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/*! normalize.css v3.0.0 | Embedded Content | MIT License | git.io/normalize */
+/* line 9, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+img {
+  border: 0;
+}
+
+/* line 15, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
+/* line 9, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 15, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 23, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 29, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
+/* line 15, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button {
+  overflow: visible;
+}
+
+/* line 36, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 47, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 57, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 64, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 73, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input {
+  line-height: normal;
+}
+
+/* line 83, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 93, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 102, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 113, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 120, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 129, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 136, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 143, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/*! normalize.css v3.0.0 | Tables | MIT License | git.io/normalize */
+/* line 9, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 14, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 5, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* colors */
+/* responsive layout */
+/* line 40, ../sass/style.scss */
+body {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #030303;
+  font-family: "Open Sans", Helvetica;
+}
+
+/* Common and reusable */
+/* line 49, ../sass/style.scss */
+a {
+  color: #030303;
+  text-decoration: none;
+}
+/* line 52, ../sass/style.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 56, ../sass/style.scss */
+h2, h3 {
+  text-transform: uppercase;
+}
+
+/* line 59, ../sass/style.scss */
+h2.orange-heading {
+  background-color: #f06b20;
+  color: white;
+  text-align: center;
+  height: 48px;
+  line-height: 48px;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+}
+
+/* line 68, ../sass/style.scss */
+h3 {
+  font-weight: 600;
+  line-height: 2.5;
+}
+
+/* line 72, ../sass/style.scss */
+h4 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin: 8px 0;
+}
+
+/* line 77, ../sass/style.scss */
+strong {
+  font-weight: 600;
+}
+
+/* line 81, ../sass/style.scss */
+.button {
+  background: #030303;
+  color: white;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  display: block;
+  margin: 20px auto;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  -webkit-transition-property: background;
+  transition-property: background;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 93, ../sass/style.scss */
+.button:hover {
+  text-decoration: none;
+  background: #f06b20;
+}
+
+/* line 98, ../sass/style.scss */
+.newsletter-subscribtion {
+  position: relative;
+}
+/* line 100, ../sass/style.scss */
+.newsletter-subscribtion input[type="email"], .newsletter-subscribtion button[type="submit"] {
+  line-height: 35px;
+  height: 35px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 105, ../sass/style.scss */
+.newsletter-subscribtion input[type="email"] {
+  height: 35px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #e1e0de;
+}
+/* line 110, ../sass/style.scss */
+.newsletter-subscribtion button[type="submit"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #f06b20;
+  border: 1px solid #cf540e;
+  -moz-border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 4px 4px 0;
+  color: white;
+  width: 46px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.875rem;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 124, ../sass/style.scss */
+.newsletter-subscribtion button[type="submit"]:hover {
+  background: #030303;
+  border-color: #030303;
+}
+
+/* line 130, ../sass/style.scss */
+.wrapper {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.5641025641%;
+  padding-right: 2.5641025641%;
+}
+/* line 12, ../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+.wrapper:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 139, ../sass/style.scss */
+header .top-bar {
+  height: 32px;
+  line-height: 32px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ededed));
+  background-image: -moz-linear-gradient(#ffffff, #ededed);
+  background-image: -webkit-linear-gradient(#ffffff, #ededed);
+  background-image: linear-gradient(#ffffff, #ededed);
+  overflow: hidden;
+  *zoom: 1;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  letter-spacing: 0.5px;
+}
+/* line 147, ../sass/style.scss */
+header .top-bar .free-shipping {
+  float: left;
+}
+/* line 149, ../sass/style.scss */
+header .top-bar .free-shipping:before {
+  content: url("../img/truck.png");
+  padding-right: 8px;
+}
+/* line 154, ../sass/style.scss */
+header .top-bar .account {
+  float: right;
+  font-weight: 500;
+}
+/* line 159, ../sass/style.scss */
+header nav, header .logo {
+  height: 54px;
+  line-height: 54px;
+  padding: 17px 0;
+}
+/* line 164, ../sass/style.scss */
+header nav {
+  float: left;
+  padding: 17px 0;
+}
+/* line 167, ../sass/style.scss */
+header nav .sandwich-menu {
+  display: none;
+}
+/* line 171, ../sass/style.scss */
+header .logo {
+  background: url(../img/logo.png) 0 center no-repeat transparent;
+  text-indent: -999999px;
+  float: left;
+  margin-right: 15px;
+  margin-top: -4px;
+  width: 166px;
+}
+/* line 178, ../sass/style.scss */
+header .logo a {
+  display: block;
+  width: 166px;
+}
+/* line 184, ../sass/style.scss */
+header ul li {
+  display: inline-block;
+  margin: 0 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 191, ../sass/style.scss */
+header .shopping-bag {
+  float: right;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin: 30px 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 197, ../sass/style.scss */
+header .shopping-bag .shopping-bag-items {
+  background-color: #e1e0de;
+  line-height: 27px;
+  padding: 0 9px;
+}
+/* line 202, ../sass/style.scss */
+header .shopping-bag .bag, header .shopping-bag .shopping-bag-items {
+  float: left;
+  border: 1px solid #e1e0de;
+  height: 25px;
+  line-height: 25px;
+}
+/* line 208, ../sass/style.scss */
+header .shopping-bag i.bag {
+  width: 25px;
+  background: url(../img/bag.png) center center no-repeat white;
+  display: inline-block;
+  background-color: white;
+  -moz-border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 220, ../sass/style.scss */
+.carousel {
+  height: 466px;
+  width: 100%;
+  background-color: #f0f2ef;
+  position: relative;
+  overflow: hidden;
+}
+/* line 226, ../sass/style.scss */
+.carousel img {
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+}
+/* line 231, ../sass/style.scss */
+.carousel .wrapper {
+  height: 100%;
+  max-width: 1160px;
+  position: relative;
+}
+/* line 235, ../sass/style.scss */
+.carousel .wrapper .arrow-left, .carousel .wrapper .arrow-right {
+  position: absolute;
+  top: 50%;
+  margin-top: -45px;
+  height: 89px;
+  width: 89px;
+  display: block;
+}
+/* line 243, ../sass/style.scss */
+.carousel .wrapper .arrow-left {
+  left: 0;
+  margin-left: 2.5641025641%;
+}
+/* line 247, ../sass/style.scss */
+.carousel .wrapper .arrow-right {
+  right: 0;
+  margin-right: 2.5641025641%;
+}
+
+/* line 258, ../sass/style.scss */
+.promotion .promo-item {
+  width: 30.4347826087%;
+  float: left;
+  margin-right: 4.347826087%;
+  text-align: center;
+}
+/* line 261, ../sass/style.scss */
+.promotion .promo-item:last-of-type {
+  width: 30.4347826087%;
+  float: right;
+  margin-right: 0;
+}
+/* line 264, ../sass/style.scss */
+.promotion .promo-item img {
+  height: 203px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f0f2ef;
+  width: 100%;
+}
+/* line 270, ../sass/style.scss */
+.promotion .promo-item p {
+  padding: 0 6.6666666667%;
+}
+/* line 273, ../sass/style.scss */
+.promotion .promo-item .button {
+  max-width: 182px;
+}
+
+/* line 281, ../sass/style.scss */
+.banner {
+  width: 100%;
+  height: 300px;
+  display: block;
+  background: url(../img/place-holder.png) center center no-repeat #f0f2ef;
+  background-size: cover;
+  margin: 20px 0;
+}
+
+/* line 292, ../sass/style.scss */
+footer {
+  padding-bottom: 40px;
+}
+/* line 294, ../sass/style.scss */
+footer .like-us-facebook {
+  background: #f0f2ef;
+  line-height: 1.5;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 20px 0;
+}
+/* line 304, ../sass/style.scss */
+footer .like-us-facebook a {
+  color: #f06b20;
+}
+/* line 307, ../sass/style.scss */
+footer .like-us-facebook span {
+  white-space: nowrap;
+}
+/* line 311, ../sass/style.scss */
+footer section {
+  width: 20%;
+  float: left;
+  margin-right: 4%;
+}
+/* line 315, ../sass/style.scss */
+footer section.stay-connected {
+  width: 28%;
+  float: right;
+  margin-right: 0;
+}
+/* line 322, ../sass/style.scss */
+footer .stay-connected .social {
+  margin: 8px 0;
+}
+/* line 324, ../sass/style.scss */
+footer .stay-connected .social li {
+  display: inline-block;
+}
+/* line 326, ../sass/style.scss */
+footer .stay-connected .social li a {
+  width: 32px;
+  height: 32px;
+  display: block;
+  text-indent: -999999px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  -webkit-transition-property: background;
+  transition-property: background;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  margin-right: 2px;
+}
+/* line 338, ../sass/style.scss */
+footer .stay-connected .social li a.twitter {
+  background-image: url(../img/twitter.png);
+}
+/* line 341, ../sass/style.scss */
+footer .stay-connected .social li a.facebook {
+  background-image: url(../img/facebook.png);
+}
+/* line 344, ../sass/style.scss */
+footer .stay-connected .social li a.pinterest {
+  background-image: url(../img/pinterest.png);
+}
+/* line 347, ../sass/style.scss */
+footer .stay-connected .social li a.youtube {
+  background-image: url(../img/youtube.png);
+}
+/* line 350, ../sass/style.scss */
+footer .stay-connected .social li a:hover {
+  background-color: #f06b20;
+}
+/* line 357, ../sass/style.scss */
+footer .stay-connected input[type="email"] {
+  width: 100%;
+  padding: 0 44px 0 12px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 720px) {
+  /* line 370, ../sass/style.scss */
+  header nav {
+    float: left;
+    padding: 0;
+  }
+  /* line 374, ../sass/style.scss */
+  header .shopping-bag {
+    margin: 10px 0;
+  }
+  /* line 377, ../sass/style.scss */
+  header .logo {
+    width: 100%;
+  }
+
+  /* line 381, ../sass/style.scss */
+  .shopping-bag {
+    float: right;
+    margin: 0 auto 30px auto;
+  }
+  /* line 385, ../sass/style.scss */
+  .shopping-bag .shopping-bag-items {
+    padding: 0 4px;
+  }
+  /* line 387, ../sass/style.scss */
+  .shopping-bag .shopping-bag-items .shopping-cart-text {
+    display: none;
+  }
+
+  /* line 395, ../sass/style.scss */
+  footer section {
+    width: 30%;
+    margin-right: 5%;
+  }
+  /* line 398, ../sass/style.scss */
+  footer section:nth-of-type(3) {
+    margin-right: 0;
+  }
+  /* line 401, ../sass/style.scss */
+  footer section.stay-connected {
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 415, ../sass/style.scss */
+  header .top-bar {
+    letter-spacing: 0px;
+  }
+  /* line 418, ../sass/style.scss */
+  header nav {
+    float: right;
+    padding: 0;
+  }
+  /* line 421, ../sass/style.scss */
+  header nav .sandwich-menu {
+    display: block;
+    margin: 30px 0;
+  }
+  /* line 424, ../sass/style.scss */
+  header nav .sandwich-menu .menu {
+    background: url("../img/menu.png");
+    height: 25px;
+    width: 31px;
+    display: block;
+  }
+  /* line 431, ../sass/style.scss */
+  header nav ul {
+    display: none;
+  }
+  /* line 436, ../sass/style.scss */
+  header .shopping-bag {
+    float: left;
+    margin-left: 20px;
+  }
+  /* line 439, ../sass/style.scss */
+  header .shopping-bag .shopping-bag-items {
+    padding: 0 4px;
+  }
+  /* line 441, ../sass/style.scss */
+  header .shopping-bag .shopping-bag-items .shopping-cart-text {
+    display: none;
+  }
+
+  /* line 449, ../sass/style.scss */
+  .promotion .promo-item {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  /* line 452, ../sass/style.scss */
+  .promotion .promo-item:last-of-type {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 459, ../sass/style.scss */
+  footer .like-us-facebook {
+    font-size: 0.75rem;
+  }
+  /* line 462, ../sass/style.scss */
+  footer section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* line 466, ../sass/style.scss */
+  footer section.stay-connected {
+    width: 80%;
+    padding: 0 10%;
+  }
+}
